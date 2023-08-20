@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <birion-layout/>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BirionLayout from "@/components/layout/BirionLayout";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BirionLayout
   }
 }
 </script>
