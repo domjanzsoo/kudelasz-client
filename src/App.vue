@@ -10,7 +10,7 @@ import BirionLayout from "@/components/layout/BirionLayout";
 export default {
   name: 'App',
   components: {
-    BirionLayout
+    BirionLayout,
   }
 }
 </script>

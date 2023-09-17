@@ -13,6 +13,7 @@
     "material-design-icons-iconfont": "^6.7.0",
     "sass-loader": "^13.3.2",
     "vue": "^3.2.13",
+    "vue-router": "^4.2.4",
     "vuetify": "^3.3.12",
     "wave-ui": "^3.4.2"
   },

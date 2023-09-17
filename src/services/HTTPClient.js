@@ -2,8 +2,9 @@ import axios from 'axios';
 
 class Client {
     async getData (url, params = null) {
-        const resp = await axios.get(url, params);
+        const resp = await axios.get('/api' + url, params);
 
+        console.log(resp);
         return resp.data;
     }
 }

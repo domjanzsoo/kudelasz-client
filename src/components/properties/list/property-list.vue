@@ -1,5 +1,5 @@
 <template>
-
+  <div>blaaa</div>
 </template>
 
 <script>
@@ -13,7 +13,7 @@ export default {
     }
   },
   async mounted() {
-    this.properties = await HTTPClient.getData('/properties')
+    this.properties = await HTTPClient.getData('/properties/')
     console.log(this.properties)
   }
 }

@@ -1,6 +1,8 @@
 <template>
   <div class="w-75">
     <birion-header></birion-header>
+
+    <router-view></router-view>
   </div>
 </template>
 
