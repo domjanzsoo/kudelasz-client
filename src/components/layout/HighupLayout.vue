@@ -1,16 +1,16 @@
 <template>
   <div class="w-75">
-    <birion-header></birion-header>
+    <highup-header></highup-header>
 
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import BirionHeader from "@/components/layout/BirionHeader";
+import HighupHeader from "@/components/layout/HighupHeader";
 export default {
   name: "BirionLayout",
-  components: {BirionHeader}
+  components: {HighupHeader}
 }
 </script>
 

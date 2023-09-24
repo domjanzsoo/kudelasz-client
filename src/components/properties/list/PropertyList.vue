@@ -6,7 +6,7 @@
 import {HTTPClient} from "@/services/HTTPClient";
 
 export default {
-  name: "property-list",
+  name: "PropertyList",
   data() {
     return {
       properties: []
@@ -14,7 +14,6 @@ export default {
   },
   async mounted() {
     this.properties = await HTTPClient.getData('/properties/')
-    console.log(this.properties)
   }
 }
 </script>
