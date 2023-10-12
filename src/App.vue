@@ -1,16 +1,16 @@
 <template>
   <v-app>
-    <birion-layout/>
+    <highup-layout/>
   </v-app>
 </template>
 
 <script>
-import BirionLayout from "@/components/layout/BirionLayout";
+import HighupLayout from "@/components/layout/HighupLayout";
 
 export default {
   name: 'App',
   components: {
-    BirionLayout
+    HighupLayout,
   }
 }
 </script>
